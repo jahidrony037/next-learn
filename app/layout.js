@@ -29,6 +29,7 @@ export default function RootLayout({ children }) {
       <ul className="flex items-center gap-3 mt-4">
         <li className="font-bold text-[24px]"><Link href="/">Home</Link></li>
         <li className="font-bold text-[24px]"><Link href="/about">About</Link></li>
+        <li className="font-bold text-[24px]"><Link href="/blogs">Blogs</Link></li>
       </ul>
       </nav>
       <hr/>
